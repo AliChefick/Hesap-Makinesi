@@ -15,7 +15,7 @@ Bu proje, temel programlama mantığı ile modern web tasarımını bir araya ge
 - [Dosya Mimarisi](#-dosya-mimarisi)
 - [Kurulum ve Çalıştırma](#-kurulum-ve-çalıştırma)
 - [Kod Yapısı ve Mantık](#-kod-yapısı-ve-mantık)
-- [Geliştirici](#gelistirici-kismi)
+- [Geliştirici](#geliştirici)
 
 
 ---
