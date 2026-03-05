@@ -64,6 +64,7 @@ proje/
 ├── style.css            # Animasyonlu arka plan ve karanlık tema stil dosyası
 └── README.md            # Bu dokümantasyon dosyası
 
+```
 ## ⚙️ Kurulum ve Çalıştırma
 
 Projeyi yerel ortamınızda test etmek ve çalıştırmak için aşağıdaki adımları izleyebilirsiniz.
@@ -76,10 +77,12 @@ Uygulama arka plan işlemleri için Python 3 gerektirir. İşletim sisteminize g
 
 **Ubuntu / Linux Ortamında:**
 Terminali açın ve projenin bulunduğu dizine gidin:
+
 ```bash
 cd /projenin/bulundugu/dizin
 python3 hesap_makinesi.py
 
+```
 ## 🧠 Kod Yapısı ve Mantık
 Bu proje, temel backend mantığı ile modern frontend sunumunu bir araya getiren bir mimariye sahiptir.
 
