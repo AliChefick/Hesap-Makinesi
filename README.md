@@ -15,7 +15,6 @@ Bu proje, temel programlama mantığı ile modern web tasarımını bir araya ge
 - [Dosya Mimarisi](#-dosya-mimarisi)
 - [Kurulum ve Çalıştırma](#-kurulum-ve-çalıştırma)
 - [Kod Yapısı ve Mantık](#-kod-yapısı-ve-mantık)
-- [Geliştirici](#-geliştirici)
 
 ---
 
@@ -64,3 +63,28 @@ proje/
 ├── index.html           # Proje tanıtımını barındıran web sayfasının iskeleti
 ├── style.css            # Animasyonlu arka plan ve karanlık tema stil dosyası
 └── README.md            # Bu dokümantasyon dosyası
+
+## ⚙️ Kurulum ve Çalıştırma
+
+Projeyi yerel ortamınızda test etmek ve çalıştırmak için aşağıdaki adımları izleyebilirsiniz.
+
+### 1. Web Arayüzünü Görüntüleme
+Frontend tarafı tamamen statik dosyalardan oluştuğu için ekstra bir sunucu kurulumuna gerek yoktur. Proje klasöründeki `index.html` dosyasını favori web tarayıcınızda açmanız yeterlidir.
+
+### 2. Python Kodunu Çalıştırma
+Uygulama arka plan işlemleri için Python 3 gerektirir. İşletim sisteminize göre terminal veya komut satırını açarak aşağıdaki komutları kullanabilirsiniz:
+
+**Ubuntu / Linux Ortamında:**
+Terminali açın ve projenin bulunduğu dizine gidin:
+```bash
+cd /projenin/bulundugu/dizin
+python3 hesap_makinesi.py
+
+## 🧠 Kod Yapısı ve Mantık
+Bu proje, temel backend mantığı ile modern frontend sunumunu bir araya getiren bir mimariye sahiptir.
+
+Modüler Fonksiyon Mimarisi: Python tarafında her matematiksel işlem (toplama, cikarma, carpma, bolme) ayrı birer fonksiyon olarak tanımlanmıştır. Bu yaklaşım, kodun okunabilirliğini artırırken karmaşıklığı engeller ve ileride eklenebilecek gelişmiş matematiksel işlemler (örneğin üs alma, karekök) için esnek bir altyapı sunar.
+
+Kontrollü Veri Akışı: Kullanıcıdan alınan girdiler doğrudan float tipine dönüştürülerek ondalıklı hesaplamalara olanak tanınmış, hatalı işlem türü girişleri ise if-elif-else kontrol bloklarıyla filtrelenerek kullanıcıya geri bildirim verilmesi sağlanmıştır.
+
+Modern UI Tasarımı: Ön yüz tasarımında, modern web standartlarına uygun olarak Flexbox kullanılmış ve elementler sayfa merkezine hizalanmıştır. CSS @keyframes animasyonlarıyla desteklenen koyu tema ve "Glassmorphism" (cam efekti) kart yapısı, kodlanan mantığa şık ve dikkat çekici bir arayüz kazandırmıştır.
